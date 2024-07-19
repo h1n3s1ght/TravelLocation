@@ -1,0 +1,22 @@
+# Ignore build output
+bin/
+obj/
+
+# Ignore user-specific files
+.vscode/
+.idea/
+*.user
+*.suo
+
+# Ignore macOS-specific files
+.DS_Store
+
+# Ignore environment variables
+.env
+
+# Ignore logs
+*.log
+
+# Ignore compiled files
+*.dll
+*.exe
