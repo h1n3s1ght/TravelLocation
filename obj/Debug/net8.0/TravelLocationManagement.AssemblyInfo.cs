@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TravelLocationManagement")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+057bf3cba28f11df29e51ea5eb9d12abb2f9ac55")]
 [assembly: System.Reflection.AssemblyProductAttribute("TravelLocationManagement")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TravelLocationManagement")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
