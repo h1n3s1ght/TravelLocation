@@ -3,6 +3,7 @@ using TravelLocationManagement.Models;
 using Microsoft.AspNetCore.Identity;
 using System;
 using System.Threading.Tasks;
+using TravelLocationManagement.DTOs;
 
 namespace TravelLocationManagement.Controllers
 {
@@ -15,7 +16,7 @@ namespace TravelLocationManagement.Controllers
             _userController = new UserController(context, userManager, roleManager, passwordHasher);
         }
 
-        public async Task CreateUser(User userData)
+        public async Task CreateUser(UserCreationDTO userData)
         {
             await _userController.CreateUser(userData);
         }

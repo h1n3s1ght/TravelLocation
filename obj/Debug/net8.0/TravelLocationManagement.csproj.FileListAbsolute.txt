@@ -146,3 +146,4 @@
 /Users/benjaminhines/Desktop/PersonalProjectsLocal/LocationFinder/TravelLocationManagement/obj/Debug/net8.0/TravelLocationManagement.pdb
 /Users/benjaminhines/Desktop/PersonalProjectsLocal/LocationFinder/TravelLocationManagement/obj/Debug/net8.0/TravelLocationManagement.genruntimeconfig.cache
 /Users/benjaminhines/Desktop/PersonalProjectsLocal/LocationFinder/TravelLocationManagement/obj/Debug/net8.0/ref/TravelLocationManagement.dll
+/Users/benjaminhines/Desktop/PersonalProjectsLocal/LocationFinder/TravelLocationManagement/bin/Debug/net8.0/Swashbuckle.AspNetCore.Annotations.dll

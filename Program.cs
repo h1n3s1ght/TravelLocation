@@ -9,6 +9,12 @@ using Microsoft.Extensions.Hosting;
 using TravelLocationManagement.Data;
 using TravelLocationManagement.Models;
 using TravelLocationManagement.Utilities;
+using Swashbuckle.AspNetCore.Annotations;
+using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Logging;
+using Microsoft.OpenApi.Models;
+
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,7 +26,12 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<TravelLocationContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(c =>
+{
+    c.EnableAnnotations();
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "Travel Location Management API", Version = "v1" });
+});
+
 
 // Add identity services
 builder.Services.AddIdentity<User, Role>(options =>
